@@ -68,10 +68,10 @@ public class Conditioner {
 
 
         } else
-            {
+
 
                 this.currentTemperature = currentTemperature + 1;
-            }
+
 
 
         return currentTemperature;
@@ -82,11 +82,11 @@ public class Conditioner {
         if (currentTemperature <= minTemperature) {
             this.currentTemperature = currentTemperature;
 
-        } else  {
+        } else
 
             this.currentTemperature = currentTemperature - 1;
 
-        }
+
 
         return currentTemperature;
     }
